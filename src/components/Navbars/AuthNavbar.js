@@ -72,7 +72,7 @@ export default function AuthNavbar(props) {
           variant="no-effects"
           leftIcon={<HomeIcon color={navbarIcon} w="12px" h="12px" me="0px" />}
         >
-          <Text>Dashboard</Text>
+          <Text>Bảng Điều Khiển</Text>
         </Button>
       </NavLink>
       <NavLink to="/admin/profile">
@@ -88,7 +88,7 @@ export default function AuthNavbar(props) {
             <PersonIcon color={navbarIcon} w="12px" h="12px" me="0px" />
           }
         >
-          <Text>Profile</Text>
+          <Text>Hồ Sơ</Text>
         </Button>
       </NavLink>
       <NavLink to="/auth/signup">
@@ -104,7 +104,7 @@ export default function AuthNavbar(props) {
             <RocketIcon color={navbarIcon} w="12px" h="12px" me="0px" />
           }
         >
-          <Text>Sign Up</Text>
+          <Text>Đăng Ký</Text>
         </Button>
       </NavLink>
       <NavLink to="/auth/signin">
@@ -119,7 +119,7 @@ export default function AuthNavbar(props) {
             <DocumentIcon color={navbarIcon} w="12px" h="12px" me="0px" />
           }
         >
-          <Text>Sign In</Text>
+          <Text>Đăng Nhập</Text>
         </Button>
       </NavLink>
     </HStack>
@@ -184,7 +184,7 @@ export default function AuthNavbar(props) {
         </Box>
         {linksAuth}
         <Link href="https://creative-tim.com/product/argon-dashboard-chakra">
-          <Button
+          {/* <Button
             bg={bgButton}
             color={colorButton}
             fontSize="xs"
@@ -196,7 +196,7 @@ export default function AuthNavbar(props) {
             }}
           >
             Free Download
-          </Button>
+          </Button> */}
         </Link>
       </Flex>
     </Flex>

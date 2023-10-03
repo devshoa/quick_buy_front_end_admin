@@ -124,7 +124,7 @@ export default function AdminNavbar(props) {
           <Breadcrumb>
             <BreadcrumbItem color={mainText}>
               <BreadcrumbLink href="#" color={secondaryText}>
-                Pages
+                Trang
               </BreadcrumbLink>
             </BreadcrumbItem>
 

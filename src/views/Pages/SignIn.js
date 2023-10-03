@@ -64,7 +64,7 @@ function SignIn() {
               fontWeight='bold'
               textAlign='center'
               mb='22px'>
-              Register With
+              Đăng Nhập
             </Text>
             <HStack spacing='15px' justify='center' mb='22px'>
               <Flex
@@ -138,33 +138,33 @@ function SignIn() {
             </Text>
             <FormControl>
               <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-                Name
+                Tên
               </FormLabel>
               <Input
                 variant='auth'
                 fontSize='sm'
                 ms='4px'
                 type='text'
-                placeholder='Your full name'
+                placeholder='Tên Đăng Nhập'
                 mb='24px'
                 size='lg'
               />
               <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-                Password
+                Mật Khẩu
               </FormLabel>
               <Input
                 variant='auth'
                 fontSize='sm'
                 ms='4px'
                 type='password'
-                placeholder='Your password'
+                placeholder='Mật Khẩu'
                 mb='24px'
                 size='lg'
               />
               <FormControl display='flex' alignItems='center' mb='24px'>
                 <Switch id='remember-login' colorScheme='blue' me='10px' />
                 <FormLabel htmlFor='remember-login' mb='0' fontWeight='normal'>
-                  Remember me
+                  Nhớ Tài khoản
                 </FormLabel>
               </FormControl>
               <Button
@@ -174,7 +174,7 @@ function SignIn() {
                 w='100%'
                 h='45'
                 mb='24px'>
-                SIGN UP
+                Đăng Nhập
               </Button>
             </FormControl>
             <Flex
@@ -184,14 +184,14 @@ function SignIn() {
               maxW='100%'
               mt='0px'>
               <Text color={textColor} fontWeight='medium'>
-                Already have an account?
+                Bạn Có Muốn Tạo Tài Khoản ?
                 <Link
                   color={titleColor}
                   as='span'
                   ms='5px'
-                  href='#'
+                  href='#/auth/signin'
                   fontWeight='bold'>
-                  Sign In
+                  Đăng Ký
                 </Link>
               </Text>
             </Flex>

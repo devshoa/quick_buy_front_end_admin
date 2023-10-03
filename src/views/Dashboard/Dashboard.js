@@ -69,7 +69,7 @@ export default function Dashboard() {
                   color='gray.400'
                   fontWeight='bold'
                   textTransform='uppercase'>
-                  Today's Money
+                  Tiền Hôm Nay
                 </StatLabel>
                 <Flex>
                   <StatNumber fontSize='lg' color={textColor} fontWeight='bold'>
@@ -90,7 +90,7 @@ export default function Dashboard() {
               <Text as='span' color='green.400' fontWeight='bold'>
                 +3.48%{" "}
               </Text>
-              Since last month
+              Kể Từ Tháng Trước
             </Text>
           </Flex>
         </Card>
@@ -108,7 +108,7 @@ export default function Dashboard() {
                   color='gray.400'
                   fontWeight='bold'
                   textTransform='uppercase'>
-                  Today's Users
+                  Kẻ Từ Tháng Trước
                 </StatLabel>
                 <Flex>
                   <StatNumber fontSize='lg' color={textColor} fontWeight='bold'>
@@ -129,7 +129,7 @@ export default function Dashboard() {
               <Text as='span' color='green.400' fontWeight='bold'>
                 +5.2%{" "}
               </Text>
-              Since last month
+              Kẻ Từ Tháng Trước
             </Text>
           </Flex>
         </Card>
@@ -147,7 +147,7 @@ export default function Dashboard() {
                   color='gray.400'
                   fontWeight='bold'
                   textTransform='uppercase'>
-                  New Clients
+                  Khách Hàng Mới
                 </StatLabel>
                 <Flex>
                   <StatNumber fontSize='lg' color={textColor} fontWeight='bold'>
@@ -168,7 +168,7 @@ export default function Dashboard() {
               <Text as='span' color='red.500' fontWeight='bold'>
                 -2.82%{" "}
               </Text>
-              Since last month
+              kể Từ Tháng Trước
             </Text>
           </Flex>
         </Card>
@@ -186,7 +186,7 @@ export default function Dashboard() {
                   color='gray.400'
                   fontWeight='bold'
                   textTransform='uppercase'>
-                  Total Sales
+                  Tổng Danh Thu
                 </StatLabel>
                 <Flex>
                   <StatNumber fontSize='lg' color={textColor} fontWeight='bold'>
@@ -207,7 +207,7 @@ export default function Dashboard() {
               <Text as='span' color='green.400' fontWeight='bold'>
                 +8.12%{" "}
               </Text>
-              Since last month
+              Kể Từ Tháng Trước
             </Text>
           </Flex>
         </Card>
@@ -226,13 +226,13 @@ export default function Dashboard() {
           maxW={{ sm: "320px", md: "100%" }}>
           <Flex direction='column' mb='40px' p='28px 0px 0px 22px'>
             <Text color='#fff' fontSize='lg' fontWeight='bold' mb='6px'>
-              Sales Overview
+              Tổng Danh Thu Về Danh SỐ Bán Hàng
             </Text>
             <Text color='#fff' fontSize='sm'>
               <Text as='span' color='green.400' fontWeight='bold'>
-                (+5) more{" "}
+                (+5) Nhiều Hơn{" "}
               </Text>
-              in 2022
+              vào Năm 2022
             </Text>
           </Flex>
           <Box minH='300px'>
@@ -245,10 +245,10 @@ export default function Dashboard() {
         <Card p='0px' maxW={{ sm: "320px", md: "100%" }}>
           <Flex direction='column' mb='40px' p='28px 0px 0px 22px'>
             <Text color='gray.400' fontSize='sm' fontWeight='bold' mb='6px'>
-              PERFORMANCE
+              Hiệu Suất
             </Text>
             <Text color={textColor} fontSize='lg' fontWeight='bold'>
-              Total orders
+              Tổng Số Đơn Đặt Hàng
             </Text>
           </Flex>
           <Box minH='300px'>
@@ -259,10 +259,10 @@ export default function Dashboard() {
           <Flex direction='column'>
             <Flex align='center' justify='space-between' p='22px'>
               <Text fontSize='lg' color={textColor} fontWeight='bold'>
-                Page visits
+                Lượt Truy Cập Trang
               </Text>
               <Button variant='primary' maxH='30px'>
-                SEE ALL
+               Tất Cả
               </Button>
             </Flex>
             <Box overflow={{ sm: "scroll", lg: "hidden" }}>
@@ -270,16 +270,16 @@ export default function Dashboard() {
                 <Thead>
                   <Tr bg={tableRowColor}>
                     <Th color='gray.400' borderColor={borderColor}>
-                      Page name
+                      Tên Trang
                     </Th>
                     <Th color='gray.400' borderColor={borderColor}>
-                      Visitors
+                      Khách
                     </Th>
                     <Th color='gray.400' borderColor={borderColor}>
-                      Unique users
+                      Người Dùng
                     </Th>
                     <Th color='gray.400' borderColor={borderColor}>
-                      Bounce rate
+                      Tỷ Lệ Trả Lại
                     </Th>
                   </Tr>
                 </Thead>
@@ -328,10 +328,10 @@ export default function Dashboard() {
           <Flex direction='column'>
             <Flex align='center' justify='space-between' p='22px'>
               <Text fontSize='lg' color={textColor} fontWeight='bold'>
-                Social traffic
+                Mạng Xã Hội
               </Text>
               <Button variant='primary' maxH='30px'>
-                SEE ALL
+                Tất Cả
               </Button>
             </Flex>
           </Flex>
@@ -340,10 +340,10 @@ export default function Dashboard() {
               <Thead>
                 <Tr bg={tableRowColor}>
                   <Th color='gray.400' borderColor={borderColor}>
-                    Referral
+                    Giới Thiệu
                   </Th>
                   <Th color='gray.400' borderColor={borderColor}>
-                    Visitors
+                    Khách Tham Quan
                   </Th>
                   <Th color='gray.400' borderColor={borderColor}></Th>
                 </Tr>

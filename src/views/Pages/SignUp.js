@@ -59,9 +59,9 @@ function SignUp() {
         mt='125px'
         mb='30px'>
         <Text fontSize='4xl' color='white' fontWeight='bold'>
-          Welcome!
+          Xin Chào!
         </Text>
-        <Text
+        {/* <Text
           fontSize='md'
           color='white'
           fontWeight='normal'
@@ -70,7 +70,7 @@ function SignUp() {
           w={{ base: "90%", sm: "60%", lg: "40%", xl: "333px" }}>
           Use these awesome forms to login or create new account in your project
           for free.
-        </Text>
+        </Text> */}
       </Flex>
       <Flex alignItems='center' justifyContent='center' mb='60px' mt='20px'>
         <Flex
@@ -91,7 +91,7 @@ function SignUp() {
             fontWeight='bold'
             textAlign='center'
             mb='22px'>
-            Register With
+            Đăng Ký
           </Text>
           <HStack spacing='15px' justify='center' mb='22px'>
             <Flex
@@ -161,18 +161,18 @@ function SignUp() {
             fontWeight='bold'
             textAlign='center'
             mb='22px'>
-            or
+            Hoặc
           </Text>
           <FormControl>
             <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-              Name
+              Tên
             </FormLabel>
             <Input
               variant='auth'
               fontSize='sm'
               ms='4px'
               type='text'
-              placeholder='Your full name'
+              placeholder='Họ Và Tên'
               mb='24px'
               size='lg'
             />
@@ -184,26 +184,26 @@ function SignUp() {
               fontSize='sm'
               ms='4px'
               type='email'
-              placeholder='Your email address'
+              placeholder='Email Của Bạn '
               mb='24px'
               size='lg'
             />
             <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-              Password
+              Mật Khẩu
             </FormLabel>
             <Input
               variant='auth'
               fontSize='sm'
               ms='4px'
               type='password'
-              placeholder='Your password'
+              placeholder='Mật Khẩu'
               mb='24px'
               size='lg'
             />
             <FormControl display='flex' alignItems='center' mb='24px'>
               <Switch id='remember-login' colorScheme='blue' me='10px' />
               <FormLabel htmlFor='remember-login' mb='0' fontWeight='normal'>
-                Remember me
+                GHi Nhớ Tài Khoản
               </FormLabel>
             </FormControl>
             <Button
@@ -223,14 +223,14 @@ function SignUp() {
             maxW='100%'
             mt='0px'>
             <Text color={textColor} fontWeight='medium'>
-              Already have an account?
+              Bạn có sẵn sàng để tạo tài khoản?
               <Link
                 color={titleColor}
                 as='span'
                 ms='5px'
                 href='#'
                 fontWeight='bold'>
-                Sign In
+                  Đăng Nhập
               </Link>
             </Text>
           </Flex>

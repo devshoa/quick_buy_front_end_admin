@@ -27,26 +27,26 @@ export default function Footer(props) {
         <Text as='span'>
           {document.documentElement.dir === "rtl"
             ? " مصنوع من ❤️ بواسطة"
-            : "Made with ❤️ by "}
+            : "Cảm ơn ❤️ bạn "}
         </Text>
         <Link
           color='blue.400'
-          href='https://www.creative-tim.com'
+          href=''
           target='_blank'>
           {document.documentElement.dir === "rtl"
             ? " توقيت الإبداعية"
-            : "Creative Tim "}
+            : "ĐÃ ĐẾN  "}
         </Link>
-        &
-        <Link color='blue.400' href='https://www.simmmple.com' target='_blank'>
-          {document.documentElement.dir === "rtl" ? "سيممبل " : " Simmmple"}
+        với
+        <Link color='blue.400' href='' target='_blank'>
+          {document.documentElement.dir === "rtl" ? "سيممبل " : " Trang Của Chúng TÔi"}
         </Link>
         {document.documentElement.dir === "rtl"
           ? "للحصول على ويب أفضل"
-          : " for a better web"}
+          : " chúc bạn ngày vui vẻ"}
       </Text>
       <List display='flex'>
-        <ListItem
+        {/* <ListItem
           me={{
             base: "20px",
             md: "44px",
@@ -85,7 +85,7 @@ export default function Footer(props) {
             href='https://www.creative-tim.com/license'>
             {document.documentElement.dir === "rtl" ? "رخصة" : "License"}
           </Link>
-        </ListItem>
+        </ListItem> */}
       </List>
     </Flex>
   );

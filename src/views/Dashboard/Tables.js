@@ -27,7 +27,7 @@ function Tables() {
       <Card overflowX={{ sm: "scroll", xl: "hidden" }} pb="0px">
         <CardHeader p="6px 0px 22px 0px">
           <Text fontSize="xl" color={textColor} fontWeight="bold">
-            Authors Table
+            Bảng Tác Giả
           </Text>
         </CardHeader>
         <CardBody>
@@ -35,11 +35,11 @@ function Tables() {
             <Thead>
               <Tr my=".8rem" pl="0px" color="gray.400" >
                 <Th pl="0px" borderColor={borderColor} color="gray.400" >
-                  Author
+                  Tác giả
                 </Th>
-                <Th borderColor={borderColor} color="gray.400" >Function</Th>
-                <Th borderColor={borderColor} color="gray.400" >Status</Th>
-                <Th borderColor={borderColor} color="gray.400" >Employed</Th>
+                <Th borderColor={borderColor} color="gray.400" >Chức Năng</Th>
+                <Th borderColor={borderColor} color="gray.400" >Trạng Thái</Th>
+                <Th borderColor={borderColor} color="gray.400" >Đã Làm Việc</Th>
                 <Th borderColor={borderColor}></Th>
               </Tr>
             </Thead>
@@ -71,7 +71,7 @@ function Tables() {
         <CardHeader p="6px 0px 22px 0px">
           <Flex direction="column">
             <Text fontSize="lg" color={textColor} fontWeight="bold" pb=".5rem">
-              Projects Table
+              Bảng Dự Án
             </Text>
           </Flex>
         </CardHeader>
@@ -80,11 +80,11 @@ function Tables() {
             <Thead>
               <Tr my=".8rem" pl="0px">
                 <Th pl="0px" color="gray.400" borderColor={borderColor}>
-                  Companies
+                  Các Công Ty
                 </Th>
-                <Th color="gray.400" borderColor={borderColor}>Budget</Th>
-                <Th color="gray.400" borderColor={borderColor}>Status</Th>
-                <Th color="gray.400" borderColor={borderColor}>Completion</Th>
+                <Th color="gray.400" borderColor={borderColor}>Ngân Sách</Th>
+                <Th color="gray.400" borderColor={borderColor}>Trạng Thái</Th>
+                <Th color="gray.400" borderColor={borderColor}>Hoàng Thành</Th>
                 <Th></Th>
               </Tr>
             </Thead>
